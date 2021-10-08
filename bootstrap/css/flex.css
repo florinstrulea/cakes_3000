@@ -1,0 +1,83 @@
+.qui-sommes-nous {
+  margin: 7rem 5rem;
+  text-align: center;
+}
+
+.qui-sommes-nous--items {
+  display: flex;
+  justify-content: space-between;
+}
+.qui-sommes-nous--item {
+  margin: 6rem 0;
+  width: 32%;
+}
+
+.qui-sommes-nous__item--span {
+  font-size: 5rem;
+}
+.quelque-chiffres {
+  background-image: url("../../img/kitchen-cake-backe-backing.jpg");
+  background-size: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quelque-chiffres--items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quelque-chiffres--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+}
+
+.quelque-chiffres__item--icon,
+.quelque-chiffres__item--span-number {
+  font-size: 2rem;
+}
+
+.notre-carte-container {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.notre-carte--choix {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.notre-carte__choix--h3 {
+  font-size: 1rem;
+}
+.notre-carte--items {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.notre-carte--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 32%;
+}
+
+.menus {
+  background-image: url("../../img/pexels-photo-24553.jpg");
+  height: 100vh;
+}
+
+.menus-title--h2,
+.menus-title--h3 {
+  color: white;
+  text-align: center;
+}

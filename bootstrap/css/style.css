@@ -1,0 +1,121 @@
+body {
+  font-family: "Kreon", "sans-serif";
+  position: relative;
+  height: auto;
+  overflow-y: scroll;
+}
+
+/* section hero */
+
+.navbar {
+  background-color: #212d39;
+  opacity: 0.8;
+}
+
+.hero {
+  background-image: url("../../img/pexels-photo-132694.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.titre {
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titre--h1 {
+  font-size: 450%;
+  background-color: #3e2c0a;
+  color: white;
+  padding: 0 1rem;
+}
+.titre--p {
+  font-size: 170%;
+  background-color: white;
+  color: #3e2c0a;
+  padding: 0 1rem;
+}
+.fa-angle-down {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+}
+hr {
+  width: 5rem;
+  padding: 3px;
+  background-color: #333;
+  margin: auto;
+  opacity: 1;
+}
+
+/* section qui sommes nous */
+
+.qui-sommes-nous {
+  margin-top: 7rem;
+}
+
+.qui-somme-nous--p1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.qui-sommes-nous__item--span {
+  font-size: 5rem;
+}
+/* section quelque chiffres */
+.quelque-chiffres {
+  background-image: url("../../img/kitchen-cake-backe-backing.jpg");
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.quelque-chiffres--items {
+  margin: auto;
+}
+
+.quelque-chiffres__item--icon,
+.quelque-chiffres__item--span-number {
+  font-size: 2rem;
+}
+
+/* section carte */
+
+.notre-carte-container {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+/* section menu */
+.menus {
+  background-image: url("../../img/pexels-photo-24553.jpg");
+  height: 140vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.recette-detail {
+  font-size: 0.8rem;
+}
+.span-round {
+  background-color: #333;
+  padding: 1rem 0.5rem;
+  border-radius: 50%;
+}
+
+/* section formulaire */
+.img-menu {
+  width: 100%;
+  height: 64%;
+}
+
+.active {
+  background-color: #3e2c0a;
+}
